@@ -6,9 +6,10 @@ body {
 
 #Hero-Section {
   background-image: url("../img/yo.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-x;
+  background-size: auto;
   background-position: left;
+  
 }
 
 /* Mis trabajos */
@@ -36,4 +37,20 @@ body {
     width: 100px;
   }
 
+}
+
+/* Para que justificar el texto */
+.text-justify {
+  text-align: justify;
+}
+
+/* Para que las Cards tengan la mismas dimensiones */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-body {
+  flex: 1; 
 }
